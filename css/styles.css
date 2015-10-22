@@ -100,7 +100,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 80px;
+  padding-bottom: 65px;
 }
 
 .box {
@@ -141,15 +141,28 @@ nav {
 }
 
 .how-it-works p {
+  font-weight: thin;
   padding-top: 50px;
   margin: 0 auto;
   text-align: center;
-  width: 90%;
+  width: 89%;
 }
 
 .how-it-works img {
-  width: 75px;
-  height: 75px;
+  width: 87px;
+  height: 77px;
   margin-top: 40px;
 }
 
+.how-it-works h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 36.5px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+
+.how-it-works span {
+  color: #bdd537;
+  font-weight: bold;
+}
