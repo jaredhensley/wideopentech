@@ -1,16 +1,19 @@
 /*---GLOBALSTYLES---*/
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *:before, *:after {
-	box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 p {
@@ -21,11 +24,11 @@ a {
   text-decoration: none;
   color: #bdd537;
 }
+
+
 /*---CONTENT---*/
 
-body {
-}
-
+body {}
 
 .hero {
   background-image: url('../imgs/heroimg.png');
@@ -58,17 +61,19 @@ nav {
 
 .fa-bars {
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   font-size: 180%;
   padding: 25px 35px 0 0;
   color: white;
-  
 }
+
 
 /*---HEROTEXT---*/
 
-.hero h3,h1,.hero-sub-span {
+.hero h3,
+h1,
+.hero-sub-span {
   font-family: 'Oswald';
   color: white;
   font-weight: 100;
@@ -78,7 +83,7 @@ nav {
 
 .hero h1 {
   margin-top: -45px;
-  font-size: 5.1em; 
+  font-size: 5.1em;
   margin-bottom: -20px;
 }
 
@@ -99,17 +104,18 @@ nav {
   color: #bdd537;
 }
 
+
 /*---BOX-STYLES---*/
 
 .box-flex-parent {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; 
-  -webkit-box-orient: horizontal; 
-  -webkit-box-direction: normal; 
-  -webkit-flex-direction: row; 
-  -ms-flex-direction: row; 
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -136,15 +142,19 @@ nav {
 #box-2 {
   background-color: #40666D;
 }
+
 #box-3 {
   background-color: #878787;
 }
+
 #box-4 {
   background-color: #45C1CC
 }
+
 #box-5 {
   background-color: #BDD537;
 }
+
 
 /*---HOW-IT-WORKS-STYLES---*/
 
@@ -185,6 +195,7 @@ nav {
   font-weight: bold;
 }
 
+
 /*---THREE-ICON-INFO-STYLES---*/
 
 .three-icon-info {
@@ -192,7 +203,9 @@ nav {
   margin-top: 90px;
 }
 
-.info-img-1, .info-img-2, .info-img-3{
+.info-img-1,
+.info-img-2,
+.info-img-3 {
   margin: 0 auto;
   background: url('../imgs/sprite.png') no-repeat;
 }
@@ -204,15 +217,15 @@ nav {
 }
 
 .three-icon-info .info-img-2 {
-  background-position: -200px -91px;
+  background-position: -227px -91px;
   height: 160px;
-  width: 131px;
+  width: 74px;
 }
 
 .three-icon-info .info-img-3 {
   background-position: -119px -100px;
   height: 160px;
-  width: 131px;
+  width: 94px;
 }
 
 .three-icon-info p {
@@ -227,6 +240,7 @@ nav {
 .info-sub-section {
   margin-bottom: 200px;
 }
+
 
 /*---HELP-SECTION-STYLES---*/
 
@@ -254,3 +268,5 @@ section.help .help-sub-box {
   color: rgb(133, 133, 133);
   font-size: 16px;
 }
+
+.info-span span {}
