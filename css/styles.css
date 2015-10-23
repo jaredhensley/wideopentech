@@ -16,6 +16,11 @@ html {
 p {
   margin-top: 0;
 }
+
+a {
+  text-decoration: none;
+  color: #bdd537;
+}
 /*---CONTENT---*/
 
 body {
@@ -178,4 +183,74 @@ nav {
 .how-it-works span {
   color: #bdd537;
   font-weight: bold;
+}
+
+/*---THREE-ICON-INFO-STYLES---*/
+
+.three-icon-info {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.info-img-1, .info-img-2, .info-img-3{
+  margin: 0 auto;
+  background: url('../imgs/sprite.png') no-repeat;
+}
+
+.three-icon-info .info-img-1 {
+  background-position: -311px -100px;
+  height: 160px;
+  width: 131px;
+}
+
+.three-icon-info .info-img-2 {
+  background-position: -200px -91px;
+  height: 160px;
+  width: 131px;
+}
+
+.three-icon-info .info-img-3 {
+  background-position: -119px -100px;
+  height: 160px;
+  width: 131px;
+}
+
+.three-icon-info p {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: 'Open Sans';
+  color: #5a5a5a;
+}
+
+.info-sub-section {
+  margin-bottom: 200px;
+}
+
+/*---HELP-SECTION-STYLES---*/
+
+section.help {
+  padding-top: 50px;
+  background-color: #F0F0F0;
+}
+
+section.help div {
+  margin: 0 auto;
+}
+
+section.help .help-sub-box {
+  color: rgb(64, 102, 109);
+  background-color: #fff;
+  font-size: 1.4em;
+  font-family: 'Open Sans';
+  text-align: center;
+  width: 85%;
+  padding: 25px;
+  margin-bottom: 10px;
+}
+
+.help-sub-text {
+  color: rgb(133, 133, 133);
+  font-size: 16px;
 }
