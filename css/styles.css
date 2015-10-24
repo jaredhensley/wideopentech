@@ -337,6 +337,10 @@ div.help-title-text.sub-title:last-child {
   width: 245px;
 }
 
+.brand:last-child {
+  padding: 100px;
+}
+
 .company1 {
   background-position: 13px -7px;
 }
@@ -478,4 +482,23 @@ input#button {
   margin-left: 0;
   color: white;
   background-color: #B9D619;
+}
+
+
+/***FOOTER-STYLES***/
+
+footer {
+  background-color: #53747A;
+}
+
+footer .copy {
+  text-align: left;
+  color: white;
+}
+
+footer div.copy p {
+  padding: 20px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 400;
 }
