@@ -25,10 +25,10 @@ a {
   color: #bdd537;
 }
 
-
-/*---CONTENT---*/
-
 body {}
+
+
+/*---RESUABLE-COMPONENTS---*/
 
 .hero {
   background-image: url('../imgs/heroimg.png');
@@ -40,6 +40,39 @@ body {}
 .wrap {
   margin: 0 auto;
   width: 100%%;
+}
+
+.green-emph {
+  color: #bdd537;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-weight: 400;
+  font-size: 34.5px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  color: #40666d;
+  font-family: 'Open Sans';
+}
+
+.sub-title::last-child {
+  padding-bottom: 0;
+}
+
+.sub-title span {
+  text-transform: uppercase;
+}
+
+.sub-title p {
+  font-size: 60%;
+  font-weight: 400;
+}
+
+.bottom-box {
+  background-color: white;
+  height: 100%;
+  padding: 25px;
 }
 
 
@@ -190,11 +223,6 @@ h1,
   padding-bottom: 30px;
 }
 
-.how-it-works span {
-  color: #bdd537;
-  font-weight: bold;
-}
-
 
 /*---THREE-ICON-INFO-STYLES---*/
 
@@ -244,6 +272,15 @@ h1,
 
 /*---HELP-SECTION-STYLES---*/
 
+.help-title-text {
+  text-align: center;
+  width: 90%;
+}
+
+.help-title-text p {
+  font-size
+}
+
 section.help {
   padding-top: 50px;
   background-color: #F0F0F0;
@@ -269,4 +306,133 @@ section.help .help-sub-box {
   font-size: 16px;
 }
 
-.info-span span {}
+div.help-title-text.sub-title:last-child {
+  width: 100%;
+  padding: 0 0 25px 0;
+  background-color: white;
+}
+
+
+/*---COMPANIES-STYLES---*/
+
+.companies {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #BDD537;
+  width: 100%;
+}
+
+.companies p {
+  color: white;
+  font-family: 'Oswald';
+  font-size: 42px;
+  font-weight: 300;
+  padding-top: 30px;
+}
+
+.brand {
+  margin: 0 auto;
+  background-image: url('../imgs/sprite_client_logos.jpg');
+  height: 125px;
+  width: 245px;
+}
+
+.company1 {
+  background-position: 13px -7px;
+}
+
+.company2 {
+  background-position: -330px 1px;
+}
+
+.company3 {
+  background-position: -640px 1px;
+}
+
+.company4 {
+  background-position: -640px -136px;
+}
+
+.company5 {
+  background-position: -314px -136px;
+}
+
+.company6 {
+  background-position: -640px -136px;
+}
+
+.company7 {
+  background-position: 1px -280px;
+}
+
+.company8 {
+  background-position: -320px -280px;
+}
+
+.company9 {
+  background-position: -640px -280px;
+}
+
+
+/***LOCATIONS-SECTION***/
+
+.locations {
+  width: 100%;
+}
+
+.city1 {
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../imgs/wilmington.jpg');
+  overflow: hidden;
+}
+
+.city2 {
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../imgs/asheville.jpg');
+  overflow: hidden;
+}
+
+.city-info {
+  margin: 0 auto;
+  margin-top: 37.5%;
+  padding: 5px;
+  margin-bottom: 37.5%;
+  text-align: center;
+  max-height: 100%;
+  width: 55%;
+  background-color: black;
+  opacity: .65;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Open Sans';
+}
+
+.city-name,
+.city-address,
+.city-email {
+  margin: 0 auto;
+  max-width: 90%;
+  max-height: 100%;
+}
+
+.city-name {
+  color: #BACD4F;
+  font-size: 30px;
+}
+
+.city-info {
+  font-size: 19px;
+}
+
+.city-email {
+  color: #bdd537;
+  letter-spacing: 1px;
+  font-size: .8rem;
+  line-height: 2rem;
+}
