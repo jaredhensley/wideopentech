@@ -277,7 +277,7 @@ h1,
 
 .help-title-text {
   text-align: center;
-  width: 90%;
+  width: 85%;
 }
 
 .help-title-text p {
@@ -388,6 +388,7 @@ div.help-title-text.sub-title:last-child {
 }
 
 .city1 {
+  width: 100%;
   height: auto;
   background-position: center;
   background-size: cover;
@@ -397,6 +398,7 @@ div.help-title-text.sub-title:last-child {
 }
 
 .city2 {
+  width: 100%;
   height: auto;
   background-position: center;
   background-size: cover;
