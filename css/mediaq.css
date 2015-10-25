@@ -43,13 +43,37 @@
     width: 50%;
     float: left;
   }
-  sections.news-letter {
+  div.news-letter {
     clear: both;
   }
   section.locations {}
 }
 
 @media screen and (min-width: 960px) {
+  i.fa.fa-bars {
+    display: none;
+  }
+  nav {
+    margin-top: 25px;
+  }
+  nav ul {
+    padding-left: 0;
+    margin-left: 0;
+    display: inline-block;
+    float: right;
+    max-width: 70%;
+  }
+  nav li {
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    list-style: none;
+    padding: 7px;
+    color: white;
+  }
   .hero h1 {
     font-size: 9em;
   }
@@ -63,7 +87,7 @@
     width: 70%;
   }
   .info-sub-section {
-    max-width: 70%;
+    max-width: 33%;
   }
   .help-sub-box {
     max-width: 70%;
@@ -73,6 +97,21 @@
   }
   .bottom-box {
     clear: both;
+  }
+  .company-images {
+    margin: 0 auto;
+    max-width: 75%
+  }
+  section div.news-letter {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .city1,
+  .city2 {
+    height: 500px;
+  }
+  .city-info {
+    margin-top: 30%;
   }
 }
 
@@ -89,7 +128,11 @@
   nav,
   .box-flex-parent,
   .help-sub-box {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 75%;
+  }
+  section div.news-letter {
+    max-width: 60%;
   }
 }

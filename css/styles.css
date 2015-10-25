@@ -85,7 +85,12 @@ nav {
   margin-bottom: 75px;
 }
 
+nav ul {
+  display: none;
+}
+
 .logo {
+  display: inline-block;
   width: 230px;
   height: auto;
 }
@@ -333,6 +338,10 @@ div.help-title-text.sub-title:last-child {
   padding-top: 30px;
 }
 
+.company-images {
+  padding-bottom: 50px;
+}
+
 .brand {
   margin: 0 auto;
   background-image: url('../imgs/sprite_client_logos.jpg');
@@ -341,7 +350,7 @@ div.help-title-text.sub-title:last-child {
 }
 
 .brand:last-child {
-  padding: 100px;
+  padding-bottom: 200px;
 }
 
 .company1 {
@@ -456,6 +465,8 @@ section.sign-up {
   color: white;
   font-family: 'Open Sans';
 }
+
+section .news-letter {}
 
 section h4 {
   margin-top: 0;
