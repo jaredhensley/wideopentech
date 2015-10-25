@@ -183,6 +183,11 @@ h1,
   background-color: beige;
 }
 
+.box:hover {
+  transition: 2s;
+  transform: rotateY(180deg);
+}
+
 #box-1 {
   background-color: #2EC2A8;
 }
