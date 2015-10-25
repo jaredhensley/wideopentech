@@ -87,7 +87,14 @@
     width: 70%;
   }
   .info-sub-section {
-    max-width: 33%;
+    width: 33%;
+    float: left;
+    background-color: white;
+    border-right: 1px solid #5a5a5a;
+  }
+  div.spacer {
+    clear: both;
+    display: inline-block;
   }
   .help-sub-box {
     max-width: 70%;

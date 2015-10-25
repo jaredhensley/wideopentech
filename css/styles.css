@@ -78,6 +78,13 @@ body {}
   padding: 25px;
 }
 
+.spacer {
+  display: none;
+  height: 100px;
+  width: 100%;
+  backgrond-color: white;
+}
+
 
 /*----NAVBAR STYLES----*/
 
@@ -292,6 +299,7 @@ h1,
 section.help {
   padding-top: 50px;
   background-color: #F0F0F0;
+  clear: both;
 }
 
 section.help div {
